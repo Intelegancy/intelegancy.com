@@ -20,7 +20,7 @@ const Header: FC = () => {
 
                 <Slide appear={ false } direction='down' in={ !trigger }>
 
-                    <AppBar>
+                    <AppBar color='default'>
 
                         <Container>
 

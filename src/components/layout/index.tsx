@@ -1,4 +1,6 @@
-import React, { FC, Fragment, ReactNode } from 'react'
+import React, { FC, ReactNode } from 'react'
+import { ThemeProvider } from '@material-ui/styles'
+import theme from '../../styles/theme'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Header from './header'
 
@@ -14,7 +16,7 @@ const Layout: FC<Props> = ({ children }) => {
 
     return (
     
-        <Fragment>
+        <ThemeProvider theme={ theme }>
 
             <CssBaseline />
 
@@ -26,7 +28,7 @@ const Layout: FC<Props> = ({ children }) => {
 
             </main>
             
-        </Fragment>
+        </ThemeProvider>
     
     )
 
