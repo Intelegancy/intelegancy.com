@@ -1,4 +1,5 @@
 import React, { FC, Fragment, ReactNode } from 'react'
+import Header from './header'
 
 
 interface Props {
@@ -12,6 +13,8 @@ const Layout: FC<Props> = ({ children }) => {
     return (
     
         <Fragment>
+
+            <Header />
 
             <main>
 
