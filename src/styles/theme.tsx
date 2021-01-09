@@ -41,6 +41,12 @@ const theme = createMuiTheme({
 
                 },
 
+                '.grow': {
+
+                    flexGrow: 1,
+        
+                },
+
             },
 
         },
