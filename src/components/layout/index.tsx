@@ -1,4 +1,5 @@
 import React, { FC, Fragment, ReactNode } from 'react'
+import CssBaseline from '@material-ui/core/CssBaseline'
 import Header from './header'
 
 
@@ -8,11 +9,14 @@ interface Props {
 
 }
 
+
 const Layout: FC<Props> = ({ children }) => {
 
     return (
     
         <Fragment>
+
+            <CssBaseline />
 
             <Header />
 
