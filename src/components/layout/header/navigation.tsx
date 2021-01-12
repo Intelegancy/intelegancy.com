@@ -33,8 +33,7 @@ const useStyles = makeStyles( (theme: Theme) =>
             fontWeight: 300,
             fontFamily: `Montserrat, Verdana`,
             minWidth: `0`,
-            padding: `0 1rem`,
-            // textTransform: `none`,
+            padding: theme.spacing(0, 2),
 
         },
 

@@ -45,7 +45,7 @@ const Header: FC = () => {
 
                         <Container>
 
-                            <Toolbar>
+                            <Toolbar disableGutters>
 
                                 <Link to='/'>
 
