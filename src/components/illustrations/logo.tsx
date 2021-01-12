@@ -6,6 +6,13 @@ const StyledSVG = styled.svg`
 
     width: 3.2rem;
 
+
+    @media only screen and (min-width: 1000px) {
+            
+        width: calc(2.3rem + 1.8vw);
+    
+    }
+
     .cls-1 {
 
         fill: url(#New_Gradient_Swatch_5);

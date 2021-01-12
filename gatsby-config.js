@@ -4,15 +4,15 @@ module.exports = {
         navLinks:[
             {
                 name: 'Tjänster',
-                link: '#',
+                link: '/tjänster',
             },
             {
                 name: 'Kontakt',
-                link: '#',
+                link: '/kontakt',
             },
             {
                 name: 'Om oss',
-                link: '#',
+                link: '/om-oss',
             },
         ]
     },

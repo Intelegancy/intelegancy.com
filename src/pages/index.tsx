@@ -12,7 +12,9 @@ const IndexPage: FC<PageProps> = () => {
 
             <MastHead />
 
-            <div style={{height: `300vh`}}></div>
+            <div style={{height: `300vh`}}>
+
+            </div>
 
         </Layout>
 
