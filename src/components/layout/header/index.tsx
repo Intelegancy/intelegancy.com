@@ -21,6 +21,11 @@ const useStyles = makeStyles( (theme: Theme) =>
 
         },
 
+        grow: {
+
+            flexGrow: 1,
+
+        },
 
     }),
 

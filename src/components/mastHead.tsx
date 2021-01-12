@@ -53,9 +53,9 @@ const Masthead: React.FC = () => {
 
                 <Grid container>
 
-                    <Grid alignContent={ 'center' } justify={ 'center' } container item xs={ 12 } sm={ 7 } md={ 6 } spacing={ 0 } >
+                    <Grid item container alignContent={ 'center' } justify={ 'center' } xs={ 12 } sm={ 7 } md={ 6 }>
 
-                        <Box maxWidth={ '80ch' }>
+                        <Box maxWidth={ '80ch' } my={ `auto` }>
 
                             <Typography color='textSecondary' component='h1' gutterBottom variant='h1' >
                             

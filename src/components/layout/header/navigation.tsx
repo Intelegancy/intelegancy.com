@@ -9,12 +9,6 @@ const useStyles = makeStyles( (theme: Theme) =>
 
     createStyles({
 
-        grow: {
-
-            flexGrow: 1,
-
-        },
-
         deskTopOnly: {
 
             display: 'none',
