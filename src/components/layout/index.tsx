@@ -15,7 +15,7 @@ interface Props {
 const Layout: FC<Props> = ({ children }) => {
 
     return (
-    
+
         <ThemeProvider theme={ theme }>
 
             <CssBaseline />
@@ -27,9 +27,9 @@ const Layout: FC<Props> = ({ children }) => {
                 { children }
 
             </main>
-            
+   
         </ThemeProvider>
-    
+
     )
 
 }
