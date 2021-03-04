@@ -6,6 +6,7 @@ import StartupIllustration from './illustrations/startupIllustration'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
+import CanvasComponent from './canvas'
 
 
 const useStyles = makeStyles( (theme: Theme) =>
@@ -88,6 +89,8 @@ const Masthead: React.FC = () => {
                         <Box my={ 5 }>
 
                             <StartupIllustration />
+
+                            {/* <CanvasComponent /> */}
 
                         </Box>
 
