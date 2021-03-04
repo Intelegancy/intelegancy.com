@@ -1,1 +1,1 @@
-import "typeface-comfortaa"
+import "fontsource-comfortaa"
