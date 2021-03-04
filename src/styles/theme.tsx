@@ -95,7 +95,7 @@ const theme = responsiveFontSizes(createMuiTheme({
 
                 fontFamily: `Comfortaa`,
                 fontSize: `calc(1.5rem + 1vw) !important`,
-                fontWeight: 500,
+                fontWeight: 600,
 
             }
 
