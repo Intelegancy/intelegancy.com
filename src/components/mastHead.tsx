@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 // import CanvasComponent from './canvas'
 import FastForwardIcon from './illustrations/icons/fastForwardIcon'
-import PriceTagIcon from './illustrations/icons/pricetagIcon'
+import PriceTagIcon from './illustrations/icons/priceTagIcon'
 import BoxesIcon from './illustrations/icons/boxesIcon'
 
 
