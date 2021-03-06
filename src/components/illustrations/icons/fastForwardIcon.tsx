@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const StyledSVG = styled.svg`
 
-    width: 2rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
 
     .ecc8b8ec-319d-4bba-8418-2433b4171d07 {
 

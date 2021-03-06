@@ -85,17 +85,32 @@ const theme = responsiveFontSizes(createMuiTheme({
 
         MuiTypography: {
 
-            // body1: {
+            body1: {
 
-            //     fontSize: `calc(1rem + 0.2vw)`,
+                fontSize: `20px`,
 
-            // },
+            },
+
+            body2: {
+
+                fontSize: `17px`,
+
+            },
 
             h1: {
 
                 fontFamily: `Comfortaa`,
                 fontSize: `calc(1.5rem + 1vw) !important`,
                 fontWeight: 600,
+
+            },
+
+            h6: {
+
+                fontFamily: `Comfortaa`,
+                // fontSize: `18px`,
+                fontWeight: 600,
+                color: `#000000a0`,
 
             }
 
