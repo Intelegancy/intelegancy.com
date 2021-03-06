@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box'
 import FastForwardIcon from './illustrations/icons/fastForwardIcon'
 import PriceTagIcon from './illustrations/icons/priceTagIcon'
 import BoxesIcon from './illustrations/icons/boxesIcon'
+import GearIcon from './illustrations/icons/gearIcon'
 
 
 const useStyles = makeStyles( (theme: Theme) =>
@@ -155,9 +156,9 @@ const Masthead: React.FC = () => {
 
                         <Grid item xs={ 12 } sm={ 6 } lg={ 3 }>
 
-                            <FastForwardIcon />
+                            <GearIcon />
 
-                            <Typography component='h2' gutterBottom variant='h6'> Lorem Ipsum</Typography>
+                            <Typography component='h2' gutterBottom variant='h6'>Drift och förvaltning</Typography>
 
                             <Typography color='textSecondary' component='p' gutterBottom paragraph variant='body2'>
                                 
